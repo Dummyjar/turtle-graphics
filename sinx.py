@@ -7,9 +7,10 @@ class trigo:
         self.curve=turt
         
 
-    def sinx(self,size,span,start_x=0,amplitude=1):  
+    def sinx(self,size,span,color,start_x=0,amplitude=1):  
         self.curve.goto(start_x,y=0)
         self.curve.pendown()
+        self.curve.color(color)
         for i in range(start_x,span):
             a=math.radians(i)
             b=(amplitude)*(math.sin(math.radians(i)))
@@ -36,4 +37,5 @@ if __name__=="__main__":
     obj=trigo(j)
     
     obj.cosx(40,700,color='red')
+    obj.sinx(40,700,color='blue')
     turtle.done()
