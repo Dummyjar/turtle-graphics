@@ -9,8 +9,9 @@ class LOVE:
         self.lou.color('red')
         self.lou.begin_fill()
         for i in range(372):
-            x=16*((math.sin(math.radians(i)))*(math.sin(math.radians(i)))*(math.sin(math.radians(i))))
-            y=13*(math.cos(math.radians(i)))-5*(math.cos(2*(math.radians(i))))-2*(math.cos(3*(math.radians(i))))-math.cos(4*(math.radians(i)))
+            a=math.radians(i)
+            x=16*((math.sin(a)))**3
+            y=13*(math.cos(a))-5*(math.cos(2*(a)))-2*(math.cos(3*(a)))-math.cos(4*(a))
             self.lou.goto(s*x,s*y)
         self.lou.penup()    
         self.lou.end_fill()
