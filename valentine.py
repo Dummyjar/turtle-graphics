@@ -18,9 +18,9 @@ class LOVE:
         self.lou.hideturtle()
 if __name__ == "__main__":
     win = t.Screen()
-    url="https://www.youtube.com/watch?v=izGwDsrQ1eQ"
-    chrome_path = 'C:/Program Files/Google/Chrome/Application/chrome.exe %s'
-    webbrowser.get(chrome_path).open(url)
+    # url="https://www.youtube.com/watch?v=izGwDsrQ1eQ"
+    # chrome_path = 'C:/Program Files/Google/Chrome/Application/chrome.exe %s'
+    # webbrowser.get(chrome_path).open(url)
     time.sleep(3)
     win.title("TURU L0B")
     caption=t.Turtle()

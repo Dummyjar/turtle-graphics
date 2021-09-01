@@ -1,5 +1,5 @@
-import turtle as t
-import math
+# import turtle as t
+# import math
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import cm
@@ -125,5 +125,5 @@ class fseries:
 
 if __name__ == '__main__':
     
-    fs=fseries(8,2)
+    fs=fseries(2,1)
     fs.display()
